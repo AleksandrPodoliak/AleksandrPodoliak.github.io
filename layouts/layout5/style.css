@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.container {
+  width: 1440px;
+  height: 810px;
+  margin: 1px auto;
+  background: url("img/table.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.card {
+  width: 120px;
+  height: 170px;
+  display: inline-block;
+  position: absolute;
+  background-size: cover;
+}
+
+.card1 {
+  background-image: url("img/card1.png");
+  z-index: 10000;
+  left: 50%;
+  margin-left: -60px;
+  top: 50%;
+  margin-top: -85px;
+}
+
+.card2 {
+  background-image: url("img/card2.png");
+  z-index: 1000;
+  left: 55%;
+  margin-left: -60px;
+  top: 40%;
+  margin-top: -85px;
+}
+
+.card3 {
+  background-image: url("img/card3.png");
+  z-index: 1000;
+  left: 45%;
+  margin-left: -60px;
+  top: 40%;
+  margin-top: -85px;
+}
+
+.card4 {
+  background-image: url("img/card4.png");
+  z-index: 100;
+  left: 40%;
+  margin-left: -60px;
+  top: 50%;
+  margin-top: -85px;
+}
+
+.card5 {
+  background-image: url("img/card5.png");
+  z-index: 100;
+  left: 60%;
+  margin-left: -60px;
+  top: 50%;
+  margin-top: -85px;
+}
+
+.card6 {
+  background-image: url("img/card6.png");
+  z-index: 10;
+  left: 65%;
+  margin-left: -60px;
+  top: 40%;
+  margin-top: -85px;
+}
+
+.card7 {
+  background-image: url("img/card7.png");
+  z-index: 10;
+  left: 35%;
+  margin-left: -60px;
+  top: 40%;
+  margin-top: -85px;
+}

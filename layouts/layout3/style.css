@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  font-family: "OpenSans";
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 60px;
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #d1d1d1;
+}
+
+.container {
+  font-size: 0;
+  padding: 30px 100px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container-nav {
+  font-size: 0;
+  padding: 20px 100px 5px 100px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container-footer {
+  font-size: 0;
+  padding: 30px 0;
+  margin: 0 auto;
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 50px;
+  font-weight: normal;
+  font-family: "OpenSansLight";
+}
+
+nav .container-nav {
+  text-align: right;
+}
+
+nav .container-nav div.nav-box {
+  border-bottom: 2px dashed black;
+  margin-bottom: -2px;
+}
+
+nav .container-nav a {
+  text-transform: uppercase;
+  font-family: "OpenSansLight";
+  font-size: 25px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+  margin-bottom: -2px;
+}
+
+nav .container-nav a:hover {
+  font-family: "OpenSansSemiBold";
+  border-bottom: 2px solid black;
+}
+
+.about-me-head {
+  text-transform: uppercase;
+  font-size: 90px;
+  font-family: OpenSansBold;
+  text-shadow: 4px 7px 0 #d1d1d1;
+}
+
+div.about-me-head {
+  border-bottom: 6px solid black;
+}
+
+.about-me-content {
+  margin-top: 50px;
+}
+
+.about-me-content-pic,
+.about-me-content-text {
+  display: inline-block;
+}
+
+.about-me-content-pic {
+  height: 400px;
+  width: 400px;
+}
+
+.about-me-content-pic img {
+  width: 400px;
+  height: 400px;
+}
+
+.about-me-content-text {
+  vertical-align: top;
+  width: 640px;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.about-me-content-text-head,
+.skills-right-head,
+.skills-left-head {
+  width: 360px;
+  padding-left: 15px;
+  height: 50px;
+  line-height: 50px;
+  background: linear-gradient(315deg, white 14%, black 14%);
+  color: white;
+  font-size: 28px;
+}
+
+.about-me-content-text-about {
+  color: black;
+  font-size: 23px;
+  padding: 25px 0 20px 0;
+  height: 200px;
+}
+
+.about-me-content-text-quote {
+  height: 150px;
+  padding: 25px 25px;
+  background-color: #d1d1d1;
+  font-size: 18px;
+  font-family: OpenSansItalic;
+  text-align: justify;
+}
+
+.about-me-content-text-quote-span {
+  display: block;
+  margin-top: 12px;
+  text-align: right;
+}
+
+.about-me-line,
+.skills-line {
+  border-top: 2px solid black;
+  margin-top: 45px;
+}
+
+.skills-left,
+.skills-right {
+  width: 505px;
+  display: inline-block;
+}
+
+.skills-left-head,
+.skills-right-head {
+  width: 250px;
+  background: linear-gradient(315deg, white 19%, black 19%);
+  margin-bottom: 30px;
+}
+
+.skills-right {
+  margin-left: 70px;
+  vertical-align: top;
+}
+
+.skills-element {
+  height: 40px;
+  color: black;
+  font-size: 25px;
+  font-family: OpenSansItalic;
+  line-height: 40px;
+  background-color: #d1d1d1;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.skills-element1,
+.skills-element4 {
+  width: 400px;
+}
+
+.skills-element2,
+.skills-element3 {
+  width: 500px;
+}
+
+.skills-element5 {
+  width: 300px;
+}
+
+.skills-element-scale,
+.skills-element-num {
+  display: inline-block;
+  height: 20px;
+}
+
+.skills-element-scale {
+  width: 100px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.skills-element-num {
+  width: 100px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.skills-element-num1 {
+  width: 105px;
+}
+
+.skills-element-right {
+  height: 40px;
+  width: 505px;
+  color: black;
+  font-size: 18px;
+  font-family: OpenSans;
+  margin-bottom: 15px;
+}
+
+.skills-element-text {
+  display: inline-block;
+  width: 475px;
+  vertical-align: top;
+}
+
+.skills-element-dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 2px 5px 0 0;
+}
+
+.prefooter-img,
+.prefooter-text {
+  display: inline-block;
+}
+
+.prefooter-img img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 15px 50px;
+}
+
+.prefooter-text {
+  color: #000;
+  font-size: 18px;
+  width: 810px;
+  vertical-align: top;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.container-footer {
+  margin-top: -30px;
+}
+
+.footer-contacts,
+.footer-gradient,
+.footer-social {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 20px;
+  height: 300px;
+  width: 300px;
+  vertical-align: top;
+}
+
+.footer-social-head,
+.footer-contacts-head {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: white;
+  display: block;
+}
+
+.footer-social-text,
+.footer-contacts-text {
+  font-size: 25px;
+  color: white;
+}
+
+.footer-social-text a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.footer-gradient,
+.footer-social {
+  margin-left: 30px;
+}
+
+.footer-gradient {
+  margin-left: 115px;
+  background: radial-gradient(closest-side circle at center, white 70%, transparent 70%, transparent 85%, white 85%);
+  border-radius: 50%;
+}
+
+.footer-gradient span {
+  display: inline-block;
+  font-size: 35px;
+  text-align: center;
+  margin: 100px 75px;
+  width: 150px;
+  height: 100px;
+}
+
+.footer-last {
+  display: block;
+  font-size: 22px;
+  color: white;
+  padding-left: 100px;
+  text-align: left;
+}

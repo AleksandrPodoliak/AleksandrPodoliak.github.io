@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "PFRegular";
+  src: url("PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "PFItalic";
+  src: url("PlayfairDisplay-Italic.ttf");
+}

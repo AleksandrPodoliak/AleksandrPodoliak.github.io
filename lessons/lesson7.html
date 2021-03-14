@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../fonts/opensans.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>Задания - Задание №7</title>
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="logo">
+      <img src="../img/myphoto.jpg" alt="myphoto">
+    </div>
+    <h1>Подоляк Александр</br><span>Ученик курса FrontEnd 02.2021</span></h1>
+    <div class="contacts">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/aleksandr_podoljak/?hl=ru"><img src="../img/instagram.png"
+              alt="instagram"></a></li>
+        <li>
+          <a href="https://www.facebook.com/alexandr.podoliak"><img src="../img/facebook.png" alt="facebook"></a></li>
+        <li>
+          <a href="mailto:aleksandr.podoljak@gmail.com"><img src="../img/logo-gmail.png" alt="gmail"></a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/aleksandr-podoliak-7874841b4/"><img src="../img/linkedIn.png"
+              alt="linkedIn"></a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Наивигация -->
+  <nav class="navtr">
+    <a href="../index.html">Обо мне</a>
+    <a href="#"><strong>Задания</strong></a>
+    <a href="layouts.html">Макеты</a>
+  </nav>
+  <!-- top lessons nav -->
+  <nav id="navtop">
+    <a href="lesson1.html">Задание №1</a>
+    <a href="lesson2.html">Задание №2</a>
+    <a href="lesson3.html">Задание №3</a>
+    <a href="lesson4.html">Задание №4</a>
+    <a href="lesson5.html">Задание №5</a>
+    <a href="lesson6.html">Задание №6</a>
+    <a href="#"><strong>Задание №7</strong></a>
+    <a href="lesson8.html">Задание №8</a>
+    <a href="lesson9.html">Задание №9</a>
+    <a href="lesson10.html">Задание №10</a>
+  </nav>
+  <!-- Таблица с контентом -->
+  <main id="main-table">
+    <table>
+      <tr>
+        <td id="bordercontent" colspan="5">
+          <table class="content">
+            <tr>
+              <th id="th-col1">
+                <p>Материал</p>
+              </th>
+              <th id="th-col2">
+                <p>Описание</p>
+              </th>
+              <th id="th-col3">
+                <p>Примеры значений</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <h3>Формы</br>&lt;form&gt; &lt;input&gt; &lt;label&gt; &lt;select&gt; &lt;option&gt; &lt;textarea&gt;
+                </h3>
+              </td>
+              <td>
+                <p>
+                  <a href="http://htmlbook.ru/html/form"><u>Тег &lt;form&gt;</u></a> 
+                    устанавливает форму на веб-странице. Форма предназначена для обмена данными между пользователем и
+                    сервером. Область применения форм не ограничена отправкой данных на сервер, с помощью клиентских
+                    скриптов можно получить доступ к любому элементу формы, изменять его и применять по своему
+                    усмотрению.</br>Документ может содержать любое количество форм, но одновременно на сервер может быть отправлена
+                    только одна форма. По этой причине данные форм должны быть независимы друг от друга.
+                </p>
+              </td>
+              <td>
+                <p>
+                  <form action="#" method="get">
+                    <dl>
+                      <dt for="name_input">name</dt>
+                      <dd>
+                        <!-- disabled заблокировано readonly только для чтения -->
+                        <input id="name_input" name="name" type="text" value="Vasia" required>
+                      </dd>
+                      <dt>password</dt>
+                      <dd>
+                        <input name="pass" type="password" placeholder="enter the pass">
+                      </dd>
+                      <dt>number</dt>
+                      <dd>
+                        <input name="age" type="number" min="10" max="100" step="5" value="1">
+                      </dd>
+                      <dt>number2</dt>
+                      <dd>
+                        <input type="range" min="10" max="100" step="5" value="20">
+                      </dd>
+                      <dt>email</dt>
+                      <dd>
+                        <input type="email">
+                        <!-- pattern="" -->
+                      </dd>
+                      <dt>tel</dt>
+                      <dd>
+                        <input type="tel">
+                      </dd>
+                      <dt>color</dt>
+                      <dd>
+                        <input type="color" id="vasia">
+                      </dd>
+                      <dt>check</dt>
+                      <dd>
+                        <input type="checkbox" name="accept">
+                      </dd>
+                      <dt>radio</dt>
+                      <dd>
+                        <input type="radio" name="sex" value="M" checked id="sex_M_inp">
+                        <label for="sex_M_inp"><span>M</span></label>
+                        <input type="radio" name="sex" value="F" checked id="sex_M_inp">
+                        <label for="sex_M_inp"><span>F</span></label>
+                      </dd>
+                      <!-- отправка -->
+                      <dt>submit</dt>
+                      <dd>
+                        <input type="submit" value="OK">
+                      </dd>
+                      <dt>select</dt>
+                      <dd>
+                        <select name="список" size="4" multiple>
+                          <optgroup label="one group">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                          </optgroup>
+                          <optgroup label="two group">
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </optgroup>
+                        </select>
+                      </dd>
+                      <dt>comment</dt>
+                      <dd>
+                        <textarea name="comment">Hello</textarea>
+                      </dd>
+
+                      <dt>reset</dt>
+                      <dd>
+                        <input type="reset" value="reset"></input>
+                      </dd>
+
+                      <dt>file</dt>
+                      <dd>
+                        <input type="file" accept="image/*" id="file"></input>
+                      </dd>
+
+                    </dl>
+                  </form>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer>Александр П. &copy 2021</footer>
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../fonts/opensans.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>Задания - Задание №2</title>
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="logo">
+      <img src="../img/myphoto.jpg" alt="myphoto">
+    </div>
+    <h1>Подоляк Александр</br><span>Ученик курса FrontEnd 02.2021</span></h1>
+    <div class="contacts">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/aleksandr_podoljak/?hl=ru"><img src="../img/instagram.png"
+              alt="instagram"></a></li>
+        <li>
+          <a href="https://www.facebook.com/alexandr.podoliak"><img src="../img/facebook.png" alt="facebook"></a></li>
+        <li>
+          <a href="mailto:aleksandr.podoljak@gmail.com"><img src="../img/logo-gmail.png" alt="gmail"></a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/aleksandr-podoliak-7874841b4/"><img src="../img/linkedIn.png"
+              alt="linkedIn"></a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Наивигация -->
+  <nav class="navtr">
+    <a href="../index.html">Обо мне</a>
+    <a href="#"><strong>Задания</strong></a>
+    <a href="layouts.html">Макеты</a>
+  </nav>
+  <!-- top lessons nav -->
+  <nav id="navtop">
+    <a href="lesson1.html">Задание №1</a>
+    <a href="#"><strong>Задание №2</strong></a>
+    <a href="lesson3.html">Задание №3</a>
+    <a href="lesson4.html">Задание №4</a>
+    <a href="lesson5.html">Задание №5</a>
+    <a href="lesson6.html">Задание №6</a>
+    <a href="lesson7.html">Задание №7</a>
+    <a href="lesson8.html">Задание №8</a>
+    <a href="lesson9.html">Задание №9</a>
+    <a href="lesson10.html">Задание №10</a>
+  </nav>
+  <!-- Таблица с контентом -->
+  <main id="main-table">
+    <table>
+      <tr>
+        <td id="bordercontent" colspan="5">
+          <table class="content">
+            <tr>
+              <th id="th-col1">
+                <p>Материал</p>
+              </th>
+              <th id="th-col2">
+                <p>Описание</p>
+              </th>
+              <th id="th-col3">
+                <p>Примеры значений</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <h3>Написание спец. символов в тексте</h3>
+              </td>
+              <td>
+                <p>
+                  Любые теги никак не показываются в окне браузера, поскольку воспринимаются браузером как команды для
+                  вставки элементов и изменения их свойств. Но иногда требуется на веб-странице вывести теги, например,
+                  для демонстрации HTML-кода. В этом случае используйте спецсимволы & lt и & gt для замены угловых
+                  скобок
+                  &lt; И &gt;. При этом тег &lt;p&gt; будет выглядеть как &ltp&gt (пример 1)
+                </p>
+              </td>
+              <td>
+                <p>
+                  &gt;
+                  &lt;
+                  &nbsp;
+                  &copy;
+                  &#2190;
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>Создание таблиц </br> Теги &lt;table&gt; | &lt;thead&gt; | &lt;tbody&gt; | &lt;tfoot&gt; |
+                  &lt;tr&gt;
+                  | &lt;th&gt; &lt;td&gt;</h3>
+              </td>
+              <td>
+                <p>
+                  Элемент &lt;table&gt; служит контейнером для элементов, определяющих содержимое таблицы. Любая таблица
+                  состоит
+                  из строк и ячеек, которые задаются с помощью тегов tr и td. Внутри table допустимо использовать
+                  следующие элементы: caption, col,
+                  colgroup,
+                  tbody, td,
+                  tfoot, th, thead и tr.
+                </p>
+              </td>
+              <td>
+                <table class="table-example">
+                  <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>Соединение ячеек colspan | rowspan</h3>
+              </td>
+              <td>
+                <p>
+                  Устанавливает число ячеек, которые должны быть объединены по горизонтали. Этот атрибут имеет смысл для
+                  таблиц, состоящих из нескольких строк.
+                </p>
+              </td>
+              <td>
+                <table class="table-example"> </br>
+                  <thead>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>1</th>
+                      <th>2</th>
+                      <th>3</th>
+                      <th>4</th>
+                    </tr>
+                    <tr>
+                      <td>Lorem ipsum</td>
+                      <td colspan="3">7</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                  </tfoot>
+                </table>
+                <table class="table-example"> </br>
+                  <thead>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>1</th>
+                      <th>2</th>
+                      <th rowspan="2">3</th>
+                      <th>4</th>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                  </tfoot>
+                </table></br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>CSS стили и применение</h3>
+              </td>
+              <td>
+                <p>
+                  style="тут стили" свойство: значение; </br>
+                  width высота</br>
+                  height высота</br>
+                  1pt = 4/3 px</br>
+                  % - % от элемента у которого задана величина , если не задана то от ширины экрана</br>
+                  font-size: 28px размер шрифта</br>
+                  text-align: left, right, center, justify (по ширине)</br>
+                  font-weight: normal, blod жирность шрифтв</br>
+                  font-style: normal \ italic шрифт</br>
+                  background-color: red \ #FFFFFF цвет задника</br>
+                  border: 1px solid red - размер рамка и цвет</br>
+                  и многие другие ...
+                </p>
+              </td>
+              <td>
+                <h3>По ширине</h3>
+                <table class="table-example">
+                  <tr>
+                    <td expl="1">1</td>
+                    <td>2</td>
+                  </tr>
+                </table>
+                <h3>По высоте</h3>
+                <table class="table-example">
+                  <tr>
+                    <td expl="2">1</td>
+                    <td>2</td>
+                  </tr>
+                </table>
+                <h3>Размер шрифта</h3>
+                <table class="table-example">
+                  <tr>
+                    <td expl="3">1</td>
+                    <td>2</td>
+                  </tr>
+                </table>
+                <h3>Расположение текста</h3>
+                <table class="table-example">
+                  <tr>
+                    <td expl="4">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td expl="5">4</td>
+                  </tr>
+                </table>
+                <h3>Цвет рамок и ячеек</h3>
+                <table class="table-example">
+                  <tr>
+                    <td>1</td>
+                    <td expl="6">2</td>
+                  </tr>
+                </table>
+                <h3>Стили текстов</h3>
+                <table class="table-example">
+                  <tr>
+                    <td>1</td>
+                    <td expl="7">2</td>
+                  </tr>
+                </table></br>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer>Александр П. &copy 2021</footer>
+</body>
+
+</html>

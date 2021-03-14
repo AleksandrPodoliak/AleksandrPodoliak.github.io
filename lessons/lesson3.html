@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../fonts/opensans.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>Задания - Задание №3</title>
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="logo">
+      <img src="../img/myphoto.jpg" alt="myphoto">
+    </div>
+    <h1>Подоляк Александр</br><span>Ученик курса FrontEnd 02.2021</span></h1>
+    <div class="contacts">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/aleksandr_podoljak/?hl=ru"><img src="../img/instagram.png"
+              alt="instagram"></a></li>
+        <li>
+          <a href="https://www.facebook.com/alexandr.podoliak"><img src="../img/facebook.png" alt="facebook"></a></li>
+        <li>
+          <a href="mailto:aleksandr.podoljak@gmail.com"><img src="../img/logo-gmail.png" alt="gmail"></a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/aleksandr-podoliak-7874841b4/"><img src="../img/linkedIn.png"
+              alt="linkedIn"></a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Наивигация -->
+  <nav class="navtr">
+    <a href="../index.html">Обо мне</a>
+    <a href="#"><strong>Задания</strong></a>
+    <a href="layouts.html">Макеты</a>
+  </nav>
+  <!-- top lessons nav -->
+  <nav id="navtop">
+    <a href="lesson1.html">Задание №1</a>
+    <a href="lesson2.html">Задание №2</a>
+    <a href="#"><strong>Задание №3</strong></a>
+    <a href="lesson4.html">Задание №4</a>
+    <a href="lesson5.html">Задание №5</a>
+    <a href="lesson6.html">Задание №6</a>
+    <a href="lesson7.html">Задание №7</a>
+    <a href="lesson8.html">Задание №8</a>
+    <a href="lesson9.html">Задание №9</a>
+    <a href="lesson10.html">Задание №10</a>
+  </nav>
+  <!-- Таблица с контентом -->
+  <main id="main-table">
+    <table>
+      <tr>
+        <td id="bordercontent" colspan="5">
+          <table class="content">
+            <tr>
+              <th id="th-col1">
+                <p>Материал</p>
+              </th>
+              <th id="th-col2">
+                <p>Описание</p>
+              </th>
+              <th id="th-col3">
+                <p>Примеры значений</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <h3>CSS-селекторы</h3>
+              </td>
+              <td>
+                <p>
+                  Селектор определяет, к какому элементу применять то или иное CSS-правило.
+                  Обратите внимание - не существует селекторов, которые бы позволили выбрать родителя (содержащий
+                  контейнер) или соседа родителя или потомков соседа родителя.</br>
+                  Селекторы тегов</br>
+                  Идентификаторы</br>
+                  Классы</br>
+                  Мультиклассы</br>
+                  Универсальный селектор</br>
+                  Вложенные селекторы</br>
+                  Дочерние селекторы</br>
+                  Соседние селекторы</br>
+                  Родственные селекторы
+                </p>
+              </td>
+              <td>
+                <p>
+                  *</br>
+                  #id</br>
+                  tagname p </br>
+                  #id.class</br>
+                  tagname#id.class</br>
+                  tagname.class</br>
+                  tagname#id</br>
+                  div, span</br>
+                  div > span</br>
+                  div span {}</br>
+                  div+span</br>
+                  div~span</br>
+                  selector[attr]</br>
+                  selector[type="text"]</br>
+                  selector[type*="ex"]</br>
+                  selector[type^="ex"]</br>
+                  selector[type&="ex"]</br>
+                  selector[type~="ex"]</br>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>Стиль Color</h3>
+              </td>
+              <td>
+                <p>
+                  Определяет цвет текста элемента.
+                </p>
+              </td>
+              <td>
+                <p>
+                  <span id="colorexmpl">red</span></br>
+                  <span id="colorexmp2">#999999</span></br>
+                  <span id="colorexmp3">#650</span></br>
+                  <span id="colorexmp4">rgb(255,0,0)</span></br>
+                  <span id="colorexmp5">rgba(255,0,0,0.5)</span></br>
+                  <span id="colorexmp6">hsl(240,100%,50%)</span></br>
+                  <span id="colorexmp7">hsla(170,50%,50%,0.9)</span></br>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>Стили текста и шрифта font | text</h3>
+              </td>
+              <td>
+                <p>
+                  Универсальное свойство, которое позволяет одновременно задать несколько характеристик шрифта и
+                  текста.</br>В качестве обязательных значений свойства font указывается размер шрифта и его семейство.
+                  Остальные значения являются опциональными и задаются при желании. Для подробного ознакомления смотрите
+                  информацию о каждом свойстве отдельно.
+                </p>
+              </td>
+              <td>
+                <p id="textexmpl">
+                  font-weight</br>
+                  font-style</br>
+                  font-family</br>
+                  text-decoration</br>
+                  text-indent</br>
+                  line-height</br>
+                  letter-spacing</br>
+                  word-spacing</br>
+                  text-shadow
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>Стили background</h3>
+              </td>
+              <td>
+                <p>
+                  Универсальное свойство background позволяет установить одновременно до пяти характеристик фона.
+                  Значения
+                  могут идти в любом порядке, браузер сам определит, какое из них соответствует нужному свойству. Для
+                  подробного ознакомления смотрите информацию о каждом свойстве отдельно. В CSS3 допустимо указывать
+                  параметры сразу нескольких фонов, перечисляя их через запятую.
+                </p>
+              </td>
+              <td id="example-bg">
+                <p>
+                  background-image</br>
+                  background-size</br>
+                  background-color</br>
+                  background-position</br>
+                  background-repeat</br>
+                  background-attachment</br>
+                  background: red url("cat.jpg") center/cover no-repeat fixed;
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer>Александр П. &copy 2021</footer>
+</body>
+
+</html>
