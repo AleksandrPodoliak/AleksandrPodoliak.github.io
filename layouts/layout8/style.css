@@ -1,0 +1,556 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSans";
+  border-collapse: collapse;
+}
+
+.container {
+  width: 1580px;
+  padding: 30px 150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1580px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #f6f2f2;
+  margin: 0 auto;
+}
+
+header nav {
+  height: 90px;
+  background-color: #313030;
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+  color: white;
+  line-height: 80px;
+  padding: 10px 25px 0 25px;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  background-color: #ff3f40;
+  transition: all 0.3s linear;
+}
+
+.present .head {
+  width: 600px;
+  display: inline-block;
+  padding-top: 90px;
+}
+
+.present .head h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 6px;
+  font-family: OpenSansExtraBold;
+  line-height: 72px;
+}
+
+h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: OpenSansBold;
+  line-height: 55px;
+}
+
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: OpenSansSemiBold;
+  line-height: 45px;
+}
+
+h4 {
+  font-size: 42px;
+  text-align: center;
+  font-family: OpenSansBold;
+  line-height: 24px;
+  color: #fdfcf8;
+  margin-top: 125px;
+}
+
+.present .head h1 span {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: OpenSansExtraBold;
+  line-height: 72px;
+}
+
+.present .head .description,
+.services .container .description,
+.feature .container .description,
+.ourteam .container .description,
+.touch .touch-container .description {
+  color: #494848;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  line-height: 28px;
+}
+
+.present .video {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 110px;
+  padding-bottom: 80px;
+}
+
+.present .video .video-content {
+  width: 550px;
+  height: 350px;
+  box-shadow: 0 0 10px 2px black;
+  margin-left: 120px;
+  margin-right: 5px;
+}
+
+.services .services-description {
+  display: inline-block;
+  height: 360px;
+  width: 500px;
+  padding-top: 80px;
+}
+
+.services .services-content {
+  display: inline-block;
+  height: 480px;
+  width: 640px;
+  vertical-align: top;
+  padding-top: 70px;
+  margin: 0 0 60px 135px;
+}
+
+.services .services-content .services-content-element {
+  /* height: 200px; */
+  width: 270px;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.services-content-element-name {
+  font-size: 24px;
+  display: block;
+  font-family: OpenSansSemiBold;
+  color: #4c4c4c;
+  padding: 20px 0 14px 0;
+}
+
+.services-content-element-descr {
+  font-size: 16px;
+  display: block;
+  font-weight: normal;
+  color: #a0a0a0;
+  line-height: 25px;
+}
+
+.feature .container .feature-line-grey {
+  text-align: center;
+  height: 2px;
+  background-color: #ececec;
+  margin: 0 auto 110px auto;
+}
+
+.feature .container,
+.feature .container .feature-description h2 {
+  text-align: center;
+}
+
+.feature .feature-description .description {
+  margin: 25px 0 35px 0;
+  padding: 0%;
+}
+
+.feature .container .feature-line-red {
+  display: block;
+  height: 3px;
+  width: 130px;
+  margin: 0 auto;
+  background-color: #ff3b3b;
+}
+
+.feature-nav {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.feature nav a {
+  display: inline-block;
+  color: #737373;
+  line-height: 24px;
+  padding: 90px 25px 65px 25px;
+  text-decoration: none;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feature nav a:hover {
+  color: #ff3b3b;
+  transition: all 0.3s linear;
+}
+
+.feature-pictures-element {
+  margin: 0 0 50px 0;
+  font-size: 0;
+}
+
+.feature-pictures-element div {
+  height: 305px;
+  display: inline-block;
+  width: 305px;
+  margin: 10px 20px 10px 0;
+}
+
+.feature-pictures-element div.feature-pictures-element-nonemargin {
+  height: 305px;
+  display: inline-block;
+  width: 305px;
+  margin: 10px 0 10px 0;
+}
+
+.feature-pictures-element img {
+  height: 305px;
+  width: 305px;
+}
+
+.ourteam .container .ourteam-line-red,
+.touch .touch-container .touch-line-red {
+  display: block;
+  height: 3px;
+  width: 130px;
+  background-color: #ff3b3b;
+}
+
+.ourteam-content {
+  display: block;
+  font-size: 0;
+}
+
+.ourteam-mainphoto,
+.ourteam-otherphoto {
+  display: inline-block;
+  height: 460px;
+}
+
+.ourteam-mainphoto {
+  width: 320px;
+  padding: 70px 70px 100px 0;
+}
+
+.ourteam-otherphoto {
+  vertical-align: top;
+  padding-top: 70px;
+}
+
+.ourteam-mainphoto img {
+  width: 320px;
+  height: 460px;
+}
+
+.ourteam-otherphoto-description {
+  display: block;
+}
+
+.ourteam .container .ourteam-description div.description {
+  width: 450px;
+}
+
+.ourteam .container .ourteam-otherphoto-description div.description {
+  padding-bottom: 35px;
+}
+
+nav.ourteam-nav a {
+  display: inline-block;
+  color: #333333;
+  line-height: 24px;
+  padding: 0 30px 65px 0;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: left;
+  font-family: OpenSansItalic;
+}
+
+nav.ourteam-nav a:hover {
+  color: #ff3b3b;
+}
+
+div.ourteam-otherphoto-element div {
+  display: inline-block;
+  margin: 0px 22px 10px 0;
+}
+
+div.ourteam-otherphoto-element div.ourteam-otherphoto-element-nonemargin {
+  margin: 0px 0px 10px 0;
+}
+
+div.ourteam-otherphoto-element img {
+  height: 210px;
+  width: 206px;
+}
+
+.subscribe {
+  height: 510px;
+  background-image: url("img/block5/bgblock5.jpg");
+  background-size: 1580px 510px;
+}
+
+.subscribe .container .subscribe-description .description {
+  color: #fdfcf8;
+  font-size: 16px;
+  padding-top: 45px;
+  padding-bottom: 65px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.subscribe-content {
+  text-align: center;
+}
+
+.subscribe-form,
+.subscribe-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.subscribe-form input {
+  height: 80px;
+  width: 480px;
+  border: 0;
+  border-radius: 6px;
+  background-color: white;
+  margin-right: 20px;
+  text-align: left;
+  line-height: 80px;
+  padding-left: 40px;
+  font-family: OpenSans;
+  color: #828282;
+  font-size: 18px;
+}
+
+.subscribe-button input {
+  line-height: 80px;
+  padding: 0 65px;
+  background-color: #ff3f40;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: OpenSansBold;
+}
+
+.subscribe-button input:hover {
+  transition: all 0.25s linear;
+  background-color: #fa2828;
+}
+
+.touch-container {
+  width: 1580px;
+  padding: 30px 0 30px 150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.touch-description {
+  margin-top: 80px;
+  display: block;
+  width: 720px;
+}
+
+.touch-content {
+  font-size: 0px;
+}
+
+.touch-content-info,
+.touch-content-form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.touch-content-form {
+  width: 730px;
+  height: 490px;
+  margin: 75px 0 110px 0;
+  font-size: 0px;
+}
+
+.touch-content-form div {
+  display: inline-block;
+}
+
+.touch-content-form-small-a input,
+.touch-content-form-small-b input,
+.touch-content-form-large textarea {
+  border: 0;
+  height: 70px;
+  width: 290px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  text-align: left;
+  line-height: 70px;
+  padding-left: 50px;
+  font-size: 18px;
+  font-family: OpenSans;
+  color: #676767;
+  margin-bottom: 48px;
+}
+
+.touch-content-form-small-a input {
+  margin-right: 50px;
+}
+
+.touch-content-form-large textarea {
+  width: 680px;
+  height: 250px;
+}
+
+.touch-content-form-button input {
+  border: 0;
+  width: 730px;
+  line-height: 74px;
+  background-color: #ff3f40;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: OpenSansBold;
+  text-align: center;
+}
+
+.touch-content-form-button input:hover {
+  background-color: #fa2828;
+}
+
+
+.touch-content-info {
+  width: 580px;
+  height: 490px;
+  margin: 75px 0 110px 120px;
+  background-color: #2d2d2d;
+}
+
+.touch-content-info-spanhead {
+  font-size: 18px;
+  font-family: OpenSansBold;
+  line-height: 34px;
+  color: #d5d5d5;
+  text-transform: uppercase;
+  padding: 140px 0 45px 70px;
+  display: block;
+}
+
+.touch-content-info-spancontent {
+  font-size: 16px;
+  width: 290px;
+  font-family: OpenSans;
+  line-height: 24px;
+  color: #d5d5d5;
+  display: block;
+  padding: 0 0 0 70px;
+}
+
+footer {
+  background-color: #313030;
+  height: 110px;
+  font-size: 0px;
+}
+
+span.footer-text {
+  display: inline-block;
+  color: #b8b8b8;
+  line-height: 110px;
+  font-size: 16px;
+  margin-left: 170px;
+  vertical-align: middle;
+}
+
+.footer-contacts {
+  width: 900px;
+  display: inline-block;
+  text-align: right;
+}
+
+.footer-contacts img {
+  height: 33px;
+  width: 33px;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+/* стандартные элементы */
+.button {
+  line-height: 55px;
+  padding: 0 65px;
+  border: 2px solid #ff3f40;
+  display: inline-block;
+  color: #ff3f40;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: OpenSansBold;
+}
+
+.button:hover {
+  transition: all 0.4s ease-out;
+  background-color: #ff3f40;
+  color: white;
+}
+
+.ourteam-mainphoto img:hover,
+.ourteam-otherphoto-element img:hover,
+.feature-pictures-element img:hover {
+  cursor: url("img/block3/search.png"), zoom-in;
+}
+
+.ourteam-mainphoto img:active,
+.ourteam-otherphoto-element img:active {
+  transition: all 0.15s ease-out;
+  transform: scale(2, 2);
+}
+
+.feature-pictures-element-br:active {
+  transition: all 0.15s ease-out;
+  transform: scale(2, 2) translate(81px, 81px);
+}
+
+.feature-pictures-element-bl:active {
+  transition: all 0.15s ease-out;
+  transform: scale(2, 2) translate(-81px, 81px);
+}
+
+.feature-pictures-element-tr:active {
+  transition: all 0.15s ease-out;
+  transform: scale(2, 2) translate(81px, -81px);
+}
+
+.feature-pictures-element-tl:active {
+  transition: all 0.15s ease-out;
+  transform: scale(2, 2) translate(-81px, -81px);
+}
+
+.ourteam-mainphoto img:not(active),
+.ourteam-otherphoto-element img:not(active),
+.feature-pictures-element img:not(active) {
+  transition: all 0.5s ease-out 2s;
+}

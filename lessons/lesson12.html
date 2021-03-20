@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../fonts/opensans.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>Задания - Задание №12</title>
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="logo">
+      <img src="../img/myphoto.jpg" alt="myphoto">
+    </div>
+    <h1>Подоляк Александр</br><span>Ученик курса FrontEnd 02.2021</span></h1>
+    <div class="contacts">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/aleksandr_podoljak/?hl=ru"><img src="../img/instagram.png"
+              alt="instagram"></a></li>
+        <li>
+          <a href="https://www.facebook.com/alexandr.podoliak"><img src="../img/facebook.png" alt="facebook"></a></li>
+        <li>
+          <a href="mailto:aleksandr.podoljak@gmail.com"><img src="../img/logo-gmail.png" alt="gmail"></a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/aleksandr-podoliak-7874841b4/"><img src="../img/linkedIn.png"
+              alt="linkedIn"></a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Наивигация -->
+  <nav class="navtr">
+    <a href="../index.html">Обо мне</a>
+    <a href="#"><strong>Задания</strong></a>
+    <a href="layouts.html">Макеты</a>
+  </nav>
+  <!-- top lessons nav -->
+  <nav id="navtop">
+    <a href="lesson1.html">Задание №1</a>
+    <a href="lesson2.html">Задание №2</a>
+    <a href="lesson3.html">Задание №3</a>
+    <a href="lesson4.html">Задание №4</a>
+    <a href="lesson5.html">Задание №5</a>
+    <a href="lesson6.html">Задание №6</a>
+    <a href="lesson7.html">Задание №7</a>
+    <a href="lesson8.html">Задание №8</a>
+    <a href="lesson9.html">Задание №9</a>
+    <a href="lesson10.html">Задание №10</a>
+    <a href="lesson11.html">Задание №11</a>
+    <a href="#"><strong>Задание №12</strong></a>
+  </nav>
+  <!-- Таблица с контентом -->
+  <main id="main-table">
+    <table>
+      <tr>
+        <td id="bordercontent" colspan="5">
+          <table class="content">
+            <tr>
+              <th id="th-col1">
+                <p>Материал</p>
+              </th>
+              <th id="th-col2">
+                <p>Описание</p>
+              </th>
+              <th id="th-col3">
+                <p>Примеры значений</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <h3>transform</h3>
+              </td>
+              <td>
+                <p>
+                  <a href="http://htmlbook.ru/css/transform"><u>Документация</u></a></br></br>
+                  Описание</br>
+                  Трансформирует элемент, в частности, позволяет его масштабировать, вращать, сдвигать, наклонять, а
+                  также
+                  комбинировать виды трансформаций.</br></br>
+                  Синтаксис</br>
+                  transform: функция [функция]* | none</br>
+                  rotate</br>
+                  Поворот элемента на заданный угол относительно точки трансформации, задаваемой свойством
+                  transform-origin.</br>
+                  transform: rotate(угол)</br></br>
+                  scale</br>
+                  Масштаб элемента по горизонтали и вертикали.</br>
+                  transform: scale(sx[, sy]);</br>
+                  Значение больше 1 увеличивает масштаб элемента, меньше 1 — уменьшает масштаб.</br></br>
+                  scaleX</br>
+                  Масштабирует элемент по горизонтали.</br>
+                  transform: scaleX(sx);</br></br>
+                  scaleY</br>
+                  Масштабирует элемент по вертикали.</br>
+                  transform: scaleY(sy);</br></br>
+                  skewX</br>
+                  Наклоняет элемент на заданный угол по вертикали.</br>
+                  transform: skewX(угол)</br></br>
+                  skewY</br>
+                  Наклоняет элемент на заданный угол по горизонтали.</br>
+                  transform: skewY(угол)</br></br>
+                  translate</br>
+                  Сдвигает элемент на заданное значение по горизонтали и вертикали.</br>
+                  transform: translate(tx[, ty])</br></br>
+                  translateX</br>
+                  Сдвигает элемент по горизонтали на указанное значение. Положительное значение сдвигает вправо,
+                  отрицательное влево.</br>
+                  transform: translateX(tx)</br></br>
+                  translateY</br>
+                  Сдвигает элемент по вертикали на указанное значение. Положительное значение сдвигает вниз,
+                  отрицательное вверх.</br>
+                  transform: translateY(ty)</br></br>
+                </p>
+              </td>
+              <td rowspan="2">
+                <a href="../layouts/layout8/index.html"><img class="layout-img8" src="../img/layout8.png"
+                    alt="layout8"></a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>transition</h3>
+              </td>
+              <td>
+                <p>
+                  <a href="http://htmlbook.ru/css/transition"><u>Документация</u></a></br></br>
+                  Универсальное свойство, которое позволяет одновременно задать значения transition-property,
+                  transition-duration, transition-timing-function и transition-delay. Устанавливает эффект перехода
+                  между двумя состояниями элемента, они могут быть определены с помощью псевдоэлемента :hover или
+                  :active, а также динамически через JavaScript.</br></br>
+                  Синтаксис</br>
+                  transition: переход [, переход ]*</br></br>
+                  переход = [ none | transition-property ] || transition-duration ||
+                  transition-timing-function || transition-delay
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>animation</h3>
+              </td>
+              <td>
+                <p>
+                  <a href="https://developer.mozilla.org/ru/docs/Web/CSS/animation"><u>Документация</u></a></br></br>
+                  CSS свойство animation это короткая запись для animation-name, animation-duration,
+                  animation-timing-function, animation-delay, animation-iteration-count, animation-direction,
+                  animation-fill-mode и animation-play-state</br></br>
+                  Начальное значение как и у каждого из подсвойств этого свойства:</br>
+                  animation-name: none</br>
+                  animation-duration: 0s</br>
+                  animation-timing-function: ease</br>
+                  animation-delay: 0s</br>
+                  animation-iteration-count: 1</br>
+                  animation-direction: normal</br>
+                  animation-fill-mode: none</br>
+                  animation-play-state: running</br></br>
+                  Syntax</br>
+                  /* @keyframes duration | timing-function | delay |
+                  iteration-count | direction | fill-mode | play-state | name */
+                  animation: 3s ease-in 1s 2 reverse both paused slidein;</br>
+                  /* @keyframes duration | timing-function | delay | name */
+                  animation: 3s linear 1s slidein;</br>
+                  /* @keyframes duration | name */
+                  animation: 3s slidein;</br></br>
+                  Порядок важен в каждом определении анимации: первое значение, которое может быть проанализировано как
+                  <time> присваивается animation-duration, и второй назначен animation-delay.
+                </p>
+              </td>
+              <td>
+                <a href="../layouts/layout9/index.html"><img class="layout-img9" src="../img/layout9.png"
+                  alt="layout9"></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer>Александр П. &copy 2021</footer>
+</body>
+
+</html>
