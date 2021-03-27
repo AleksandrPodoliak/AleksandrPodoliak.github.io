@@ -110,8 +110,8 @@ header li a:hover {
   left: 10%;
   display: inline-block;
   max-width: 30%;
-  max-height: calc(100% - 64px);
-  margin: 32px 0 32px 0;
+  max-height: calc(100% - 60px);
+  margin: 30px 0;
 }
 
 .banner::before {
@@ -206,10 +206,11 @@ header li a:hover {
 }
 
 .products {
+  text-align: center;
   z-index: 1;
   position: relative;
   margin-top: -10px;
-  padding: 90px 100px 0 100px;
+  padding: 10% 10% 0 10%;
   background-image: url("img/prodback.png");
   background-size: cover;
 }
@@ -217,76 +218,83 @@ header li a:hover {
 .product {
   display: inline-block;
   text-align: center;
-  width: 33.33333%;
+  width: 33.33333333333333%;
+}
+
+.product img {
+  width: 50%;
+  height: 50%;
 }
 
 .product-name {
   font-family: "SegoeWPN";
-  font-size: 20.35px;
-  margin-top: 30px;
+  padding: 0 10px;
+  font-size: 1.8vw;
+  margin-top: 10%;
   color: #5094f2;
 }
 
 .product-text {
   font-family: "SegoeWPN";
-  font-size: 14.35px;
+  font-size: 1.3vw;
   margin-top: 5px;
   color: #909090;
   text-align: center;
-  padding: 0 30px;
+  padding: 0 8%;
 }
 
 .cart {
-  padding: 50px 100px 0 100px;
+  padding: 10% 10% 0 10%;
 }
 
 .cart-div {
   display: inline-block;
-  width: 500px;
+  width: 50%;
   vertical-align: top;
 }
 
 .cart h2 {
   font-family: "SegoeWPN";
-  font-size: 43px;
+  font-size: 3.5vw;
   font-weight: 100;
   color: #6f7173;
-  margin-left: 50px;
+  margin-left: 4%;
 }
 
 .cart img {
   display: inline-block;
-  margin: 30px 50px;
+  width: 40%;
+  height: 40%;
+  margin: 2.5% 4%;
 }
 
 .cart-name {
   font-family: "SegoeWPN";
-  font-size: 27px;
+  font-size: 2.5vw;
   font-weight: 100;
   color: #6f7173;
-  margin-left: 70px;
+  margin-left: 13.6%;
 }
 
 .cart-text {
   font-family: "SegoeWPLight";
-  font-size: 15px;
+  font-size: 1.2vw;
   font-weight: 100;
   color: #979797;
-  margin-left: 70px;
-  line-height: 35px;
-  margin-top: 30px;
+  margin-left: 13.6%;
+  line-height: 3vw;
+  margin-top: 6%;
 }
 
 footer {
-  height: 95px;
   font-family: "SegoeWPLight";
-  font-size: 16px;
+  font-size: 1.3vw;
   font-weight: 100;
   color: #979797;
   text-align: center;
-  line-height: 95px;
+  line-height: 7vw;
   border-top: 3px solid #e5e5e5;
-  margin-top: 40px;
+  margin-top: 4%;
 }
 
 @media screen and (max-width:640px) {
