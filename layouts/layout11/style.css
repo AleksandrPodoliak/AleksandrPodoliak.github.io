@@ -285,9 +285,91 @@ span:not(:first-child):before {
   margin-bottom: 60px;
 }
 
+.forms {
+  border-top: 2px solid #e5e5e5;
+  padding: 50px 128px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.member {
+  position: relative;
+  width: 470px;
+  height: 110px;
+  background-color: #e67624;
+  padding: 70px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.member::after {
+  content: "Member Login";
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  color: #fff;
+  font-size: 26px;
+}
+
+.subscribe {
+  position: relative;
+  width: 470px;
+  height: 110px;
+  background-color: #01d4f3;
+  padding: 70px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.subscribe form,
+.member form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subscribe::after {
+  content: "Subscribe to our weekly newsletter";
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  color: #fff;
+  font-size: 26px;
+}
+
+input {
+  height: 20px;
+  border: 1px solid white;
+}
+
+input::placeholder {
+  padding: 0 0 0 20px;
+}
+
+.member form input:last-child {
+  display: block;
+  background-color: #444444;
+  border: 1px solid #444444;
+  color: #fff;
+  width: 80px;
+}
+
+.subscribe form input:last-child {
+  display: block;
+  background-color: #029bb1;
+  border: 1px solid #029bb1;
+  color: #fff;
+  height: 20px;
+}
+
+.member form input:nth-child(1),
+.member form input:nth-child(2) {
+  width: 150px;
+}
+
 footer {
   width: 1280px;
-  height: 411px;
+  height: 243px;
   background-color: white;
   background-image: url("img/footer.png");
 }
