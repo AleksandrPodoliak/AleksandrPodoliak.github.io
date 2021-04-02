@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../fonts/opensans.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>Задания - Задание №15</title>
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="logo">
+      <img src="../img/myphoto.jpg" alt="myphoto">
+    </div>
+    <h1>Подоляк Александр</br><span>Ученик курса FrontEnd 02.2021</span></h1>
+    <div class="contacts">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/aleksandr_podoljak/?hl=ru"><img src="../img/instagram.png"
+              alt="instagram"></a></li>
+        <li>
+          <a href="https://www.facebook.com/alexandr.podoliak"><img src="../img/facebook.png" alt="facebook"></a></li>
+        <li>
+          <a href="mailto:aleksandr.podoljak@gmail.com"><img src="../img/logo-gmail.png" alt="gmail"></a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/aleksandr-podoliak-7874841b4/"><img src="../img/linkedIn.png"
+              alt="linkedIn"></a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Наивигация -->
+  <nav class="navtr">
+    <a href="../index.html">Обо мне</a>
+    <a href="#"><strong>Задания</strong></a>
+    <a href="layouts.html">Макеты</a>
+  </nav>
+  <!-- top lessons nav -->
+  <nav id="navtop">
+    <a href="lesson1.html">Задание №1</a>
+    <a href="lesson2.html">Задание №2</a>
+    <a href="lesson3.html">Задание №3</a>
+    <a href="lesson4.html">Задание №4</a>
+    <a href="lesson5.html">Задание №5</a>
+    <a href="lesson6.html">Задание №6</a>
+    <a href="lesson7.html">Задание №7</a>
+    <a href="lesson8.html">Задание №8</a>
+    <a href="lesson9.html">Задание №9</a>
+    <a href="lesson10.html">Задание №10</a>
+    <a href="lesson11.html">Задание №11</a>
+    <a href="lesson12.html">Задание №12</a>
+    <a href="lesson13.html">Задание №13</a>
+    <a href="lesson14.html">Задание №14</a>
+    <a href="#"><strong>Задание №15</strong></a>
+  </nav>
+  <!-- Таблица с контентом -->
+  <main id="main-table">
+    <table>
+      <tr>
+        <td id="bordercontent" colspan="5">
+          <table class="content">
+            <tr>
+              <th id="th-col1">
+                <p>Материал</p>
+              </th>
+              <th id="th-col2">
+                <p>Описание</p>
+              </th>
+              <th id="th-col3">
+                <p>Примеры значений</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <h3>flex-box</h3>
+              </td>
+              <td>
+                <p>
+                  <a
+                    href="https://developer.mozilla.org/ru/docs/conflicting/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"><u>Документация</u></a></br>
+                  Flexbox</br></br>
+                  Основные понятия Flexbox</br>
+                  CSS модуль раскладки Flexible Box, обычно называемый флексбокс или flexbox или просто flex (флекс),
+                  был разработан как модель одномерного-направленного макета и как один из методов распределения
+                  пространства между элементами в интерфейсе, с мощными возможностями выравнивания. В этой статье даётся
+                  краткое описание основных функций flexbox, которые мы рассмотрим более подробно в остальных
+                  руководствах.</br>
+                  Когда мы описываем flexbox как одномерно-направленный, мы имеем в виду, что flexbox имеет дело с
+                  макетом в одной плоскости за раз – либо в виде строки, либо в виде столбца. Как альтернативу можно
+                  упомянуть двумерную модель CSS Grid Layout, которая управляет и столбцами и строками одновременно.</br></br>
+                  Flex</br>
+                  Свойство CSS flex - это сокращённое свойство, определяющее способность гибкого элемента растягиваться
+                  или сжиматься для заполнения собой доступного свободного пространства. Это свойство устанавливает
+                  flex-grow, flex-shrink и flex-basis.</br></br>
+                  Значения</br></br>
+                  'flex-grow'</br>
+                  Определяет flex-grow для флекс элемента. Смотри number для большей информации. Негативные значения
+                  считаются недействительными. Значение по умолчанию 0, если не указано.</br></br>
+                  'flex-shrink'</br>
+                  Определяет flex-shrink для флекс элемента. Смотри number для большей информации. Негативные
+                  значения считаются недействительными. Значение по умолчанию 1, если не указано.</br></br>
+                  'flex-basis'</br>
+                  Определяет flex-basis для флекс элемента. Любое корректное значение для высоты(height) и
+                  ширины(width) - корректно и для данного свойства. Предпочтительный размер 0 должен иметь
+                  единицу измерения, чтобы не восприниматься как гибкий. Значение по умолчанию 0%, если не
+                  указано.</br></br>
+                  none</br>
+                  Размер элемента устанавливается в соответствии с его свойствами width и height. Он полностью
+                  негибкий: не сжимается и не увеличивается по отношению к гибкому контейнеру. Эквивалентно
+                  значению "flex: 0 0 auto".
+                </p>
+              </td>
+              <td>
+                <a href="../layouts/layout12/index.html"><img class="layout-img12" src="../img/layout12.png"
+                    alt="layout12"></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer>Александр П. &copy 2021</footer>
+</body>
+
+</html>
