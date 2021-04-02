@@ -464,8 +464,8 @@ footer {
     width: 100%;
     overflow: hidden;
     z-index: 100;
-    height: calc(100% - 30px);
-    filter: drop-shadow(2px 0px 3px #222d32);
+    height: 100%;
+    filter: drop-shadow(2px 0 3px #222d32);
   }
 
   .maintable {
@@ -487,7 +487,6 @@ footer {
 
   .leftbar:hover,
   .leftbar:active {
-    display: flex;
     left: 0%;
     top: 0%;
     filter: none;
