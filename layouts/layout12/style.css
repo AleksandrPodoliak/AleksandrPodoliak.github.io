@@ -452,8 +452,20 @@ footer {
 }
 
 @media screen and (max-width:600px) {
+
+  section {
+    position: relative;
+  }
+
   .leftbar {
-    display: none;
+    position: absolute;
+    left: -99.5%;
+    top: 0%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    height: calc(100% - 30px);
+    filter: drop-shadow(2px 0px 3px #222d32);
   }
 
   .maintable {
@@ -471,6 +483,14 @@ footer {
 
   .burger {
     align-items: flex-start;
+  }
+
+  .leftbar:hover,
+  .leftbar:active {
+    display: flex;
+    left: 0%;
+    top: 0%;
+    filter: none;
   }
 
   .rowmenu {
