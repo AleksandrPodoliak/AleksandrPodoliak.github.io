@@ -293,7 +293,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  align-items: flex-start;
+  align-items: space-between;
   min-height: calc(100vh - 135px);
   width: 100%;
 }
@@ -304,17 +304,22 @@ footer {
   padding: 0.5% 2% 1% 2%;
   margin: 1.2%;
   width: 45%;
+  height: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   box-shadow: 1px -3px 0px 0px #ced2db;
   background-color: white;
 }
 
+.forms-col:last-child {
+  max-height: 30%;
+}
+
 input[type="submit"] {
   width: 15%;
-  height: 4vh;
+  height: 30px;
   margin: 1% 0 0 0;
   border: none;
   background-color: #4d94bf;
@@ -328,9 +333,9 @@ input[type="submit"] {
 
 label {
   text-align: center;
-  line-height: 4vh;
+  line-height: 30px;
   width: 40%;
-  height: 4vh;
+  height: 30px;
   border: none;
   background-color: #4d94bf;
   color: white;
@@ -339,14 +344,15 @@ label {
 }
 
 input:not([type="submit"]) {
-  height: 4vh;
+  height: 30px;
   border: 2px solid #dadde4;
   margin: 0 0 1% 0;
 }
 
 input:not([type="submit"])::placeholder {
-  padding: 3%;
-  font-size: 0.9vw;
+  line-height: 30px;
+  padding-left: 3%;
+  font-size: 1vw;
 }
 
 form .main-p {
