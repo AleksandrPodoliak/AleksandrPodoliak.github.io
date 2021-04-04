@@ -294,6 +294,7 @@ footer {
   flex-wrap: wrap;
   justify-content: left;
   align-items: flex-start;
+  align-content: flex-start;
   min-height: calc(100vh - 135px);
   width: 100%;
 }
@@ -315,7 +316,7 @@ footer {
 input[type="submit"] {
   width: 60px;
   height: 28px;
-  margin: 10px 0 0 0;
+  margin-top: 15px;
   border: none;
   background-color: #4d94bf;
   color: white;
@@ -358,7 +359,7 @@ form .main-p {
 form p {
   font-weight: 700;
   font-size: 11px;
-  margin: 5px 0 2px 0;
+  margin: 15px 0 4px 0;
 }
 
 footer {
