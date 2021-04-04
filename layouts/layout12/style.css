@@ -293,7 +293,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  align-items: space-between;
+  align-items: flex-start;
   min-height: calc(100vh - 135px);
   width: 100%;
 }
@@ -301,10 +301,9 @@ footer {
 .forms-col {
   position: relative;
   box-sizing: border-box;
-  padding: 0.5% 2% 1% 2%;
-  margin: 1.2%;
+  padding: 10px 25px;
+  margin: 10px;
   width: 45%;
-  height: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -313,18 +312,14 @@ footer {
   background-color: white;
 }
 
-.forms-col:last-child {
-  max-height: 30%;
-}
-
 input[type="submit"] {
-  width: 15%;
-  height: 30px;
-  margin: 1% 0 0 0;
+  width: 60px;
+  height: 28px;
+  margin: 10px 0 0 0;
   border: none;
   background-color: #4d94bf;
   color: white;
-  font-size: 1vw;
+  font-size: 12px;
 }
 
 .form-img {
@@ -333,43 +328,41 @@ input[type="submit"] {
 
 label {
   text-align: center;
-  line-height: 30px;
-  width: 40%;
-  height: 30px;
+  line-height: 28px;
+  width: 120px;
+  height: 28px;
   border: none;
   background-color: #4d94bf;
   color: white;
-  font-size: 1vw;
-  margin: 3% 0;
+  font-size: 12px;
+  margin: 20px 0;
 }
 
 input:not([type="submit"]) {
-  height: 30px;
+  height: 28px;
   border: 2px solid #dadde4;
-  margin: 0 0 1% 0;
 }
 
-input:not([type="submit"])::placeholder {
-  line-height: 30px;
+input::placeholder {
+  line-height: 28px;
   padding-left: 3%;
-  font-size: 1vw;
+  font-size: 12px;
 }
 
 form .main-p {
   color: #6c6c6c;
-  font-size: 1.2vw;
-  padding: 0.5% 0;
+  font-size: 15px;
   font-weight: 100;
 }
 
 form p {
   font-weight: 700;
-  font-size: 0.9vw;
-  margin: 0.5% 0;
+  font-size: 11px;
+  margin: 5px 0 2px 0;
 }
 
 footer {
-  font-size: 1.1vw;
+  font-size: 12px;
   line-height: 45px;
   text-align: center;
   background-color: white;
@@ -423,35 +416,35 @@ footer {
   }
 
   input[type="submit"] {
-    font-size: 1.4vw;
+    font-size: 12px;
   }
 
   label {
-    font-size: 1.4vw;
+    font-size: 12px;
   }
 
-  input:not([type="submit"])::placeholder {
-    font-size: 1.25vw;
+  input::placeholder {
+    font-size: 11px;
   }
 
   form .main-p {
-    font-size: 1.8vw;
+    font-size: 15px;
   }
 
   form p {
-    font-size: 1.4vw;
+    font-size: 12px;
   }
 
   .profile h1 {
-    font-size: 1.8vw;
+    font-size: 15px;
   }
 
   .profile ul li a {
-    font-size: 1.3vw;
+    font-size: 13px;
   }
 
   footer {
-    font-size: 1.4vw;
+    font-size: 12px;
     line-height: 30px;
     height: 30px;
   }
@@ -503,36 +496,7 @@ footer {
     justify-content: space-between;
   }
 
-  input[type="submit"] {
-    font-size: 2.2vw;
-  }
-
-  label {
-    font-size: 2.2vw;
-  }
-
-  input:not([type="submit"])::placeholder {
-    font-size: 2.2vw;
-  }
-
-  form .main-p {
-    font-size: 2.8vw;
-  }
-
-  form p {
-    font-size: 2.2vw;
-  }
-
-  .profile h1 {
-    font-size: 2.7vw;
-  }
-
-  .profile ul li a {
-    font-size: 2.3vw;
-  }
-
   footer {
-    font-size: 2vw;
     line-height: 30px;
     height: 30px;
   }
