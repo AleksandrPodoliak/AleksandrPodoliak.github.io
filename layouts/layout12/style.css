@@ -345,7 +345,7 @@ input:not([type="submit"]) {
 
 input::placeholder {
   line-height: 28px;
-  padding-left: 3%;
+  padding-left: 12px;
   font-size: 12px;
 }
 
