@@ -110,7 +110,7 @@ header,
 
 .docs h2 {
   color: #37414e;
-  font-size: 45px;
+  font-size: 2.8vw;
 }
 
 .docs p {
@@ -393,6 +393,10 @@ footer {
     text-align: center;
   }
 
+  .docs h2 {
+    font-size: 35px;
+  }
+
   .docs-pics {
     flex-direction: row;
   }
@@ -438,6 +442,33 @@ footer {
   .search span {
     padding: 0 0 20px 0;
   }
+
+  .docs h2 {
+    font-size: 30px;
+  }
+
+  .video-title h2 {
+    font-size: 30px;
+    padding: 0 25px;
+  }
+
+  .browser-title h2 {
+    font-size: 30px;
+  }
+
+  .browser-text span {
+    font-size: 20px;
+  }
+
+  .skeleton-title h2 {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+
+  .skeleton-text span {
+    padding-bottom: 0px;
+  }
+
 
   .icogoogle img {
     width: 40%;
