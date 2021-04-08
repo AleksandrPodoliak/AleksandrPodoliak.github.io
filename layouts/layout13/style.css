@@ -366,7 +366,6 @@ footer {
 
   .row.banner {
     text-align: center;
-    margin: 0;
   }
 
   .docs .text {
@@ -418,6 +417,10 @@ footer {
     padding-top: 30px;
   }
 
+  .row.banner {
+    margin: 0;
+  }
+
   .search span {
     padding: 0 0 20px 0;
   }
@@ -430,8 +433,7 @@ footer {
 @media screen and (max-width:661px) {
 
   header,
-  .search,
-  footer {
+  .search {
     flex-direction: column;
   }
 
