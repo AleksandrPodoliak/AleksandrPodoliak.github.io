@@ -144,30 +144,6 @@ header,
   width: 100%;
 }
 
-.browser::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  margin-top: -20px;
-  left: 5%;
-  width: 40px;
-  height: 40px;
-  background-image: url("img/Left.png");
-  background-size: cover;
-}
-
-.browser::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  margin-top: -20px;
-  right: 5%;
-  width: 40px;
-  height: 40px;
-  background-image: url("img/right.png");
-  background-size: cover;
-}
-
 .browser-title h2 {
   text-align: center;
   color: white;
@@ -277,13 +253,13 @@ header,
   text-align: center;
   color: #37414e;
   font-size: 40px;
+  padding: 0 25px;
 }
 
 .video-video img {
   width: 100%;
 }
 
-.video-title h2,
 .video-video,
 .video-title,
 .footer {
@@ -366,7 +342,11 @@ textarea {
 .icons img {
   width: 50px;
   height: 50px;
-  margin: 25px 0 25px 25px;
+  margin: 25px 0;
+}
+
+.icons img+img {
+  margin-left: 25px;
 }
 
 footer {
@@ -430,6 +410,26 @@ footer {
 @media screen and (max-width:800px) {
 
   header,
+  .search {
+    flex-direction: column;
+  }
+
+  .search {
+    padding-top: 30px;
+  }
+
+  .search span {
+    padding: 0 0 20px 0;
+  }
+
+  .video-title h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:661px) {
+
+  header,
   .search,
   footer {
     flex-direction: column;
@@ -447,17 +447,14 @@ footer {
     font-size: 30px;
   }
 
-  .video-title h2 {
-    font-size: 30px;
-    padding: 0 25px;
-  }
-
   .browser-title h2 {
     font-size: 30px;
+    padding-top: 60px;
   }
 
   .browser-text span {
     font-size: 20px;
+    padding-bottom: 50px;
   }
 
   .skeleton-title h2 {
@@ -477,6 +474,11 @@ footer {
 
   .form .button {
     text-align: left;
+  }
+
+  .btn-danger {
+    font-size: 20px;
+    padding: 10px 25px;
   }
 
   footer {
